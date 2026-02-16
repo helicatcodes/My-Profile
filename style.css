@@ -1,0 +1,69 @@
+body {
+  font-family:Arial, Helvetica, sans-serif;
+  background-color:#b5c4a4;
+  color:#606c38;
+}
+
+h1, h2 {
+  font-family:"Indie Flower", cursive;
+  color:#283618;
+}
+
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 16px;
+}
+
+.card {
+  background-color:#e9edc9;
+  border:1px solid #283618;
+  border-radius: 20px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  padding:24px;
+  margin-bottom: 24px;
+}
+
+#profile-pic {
+  width: 200px;
+  max-width: 100%;
+  border-radius: 50%;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 0 16px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 0 16px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    max-width: 540px;
+    margin: 0 auto;
+    padding: 0 16px;
+  }
+    h1, h2 {
+    text-align: center;
+  }
+  .card {
+    padding: 16px;
+  }
+}
